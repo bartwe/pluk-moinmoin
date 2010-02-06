@@ -1,0 +1,14 @@
+import pluk.io;
+
+class example : Application
+{
+  override void Main()
+  {
+    SayHi(1 + 0x2 + 0c3 + 0b100, true, "woof");
+  }
+  
+  void SayHi(int a, bool meh, string text)
+  {
+    WriteLine(text);
+  }
+}
